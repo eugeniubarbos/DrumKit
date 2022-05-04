@@ -10,7 +10,11 @@ h1 {
   text-shadow: 3px 0 #DA0463;
 
 }
-
+h1::after{
+  content: "ss";
+  width: 30px;
+  background-color: #283149;
+}
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
